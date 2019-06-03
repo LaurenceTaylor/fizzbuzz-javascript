@@ -8,5 +8,5 @@ function fizzBuzz(number) {
     result += 'buzz';
   }
   
-  return (result.length == 0 ? number : result);
+  return (result === '' ? number : result);
 };
